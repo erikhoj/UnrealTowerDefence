@@ -9,6 +9,6 @@ public class TDEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "TD" } );
+		ExtraModuleNames.AddRange( new string[] { "TD", "TDCore" } );
 	}
 }
